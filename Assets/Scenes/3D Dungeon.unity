@@ -132,6 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 44364325}
+  - component: {fileID: 44364326}
   m_Layer: 0
   m_Name: Slice05
   m_TagString: Untagged
@@ -158,6 +159,23 @@ Transform:
   m_Father: {fileID: 1426872657}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44364326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44364324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfa288d48254b74db8b85505f536192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightWall: {fileID: 0}
+  leftWall: {fileID: 0}
+  backWall: {fileID: 0}
+  rightHallway: []
+  leftHallway: []
 --- !u!1 &51295160
 GameObject:
   m_ObjectHideFlags: 0
@@ -503,6 +521,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 135456353}
+  - component: {fileID: 135456354}
   m_Layer: 0
   m_Name: Slice06
   m_TagString: Untagged
@@ -529,6 +548,23 @@ Transform:
   m_Father: {fileID: 1426872657}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &135456354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 135456352}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfa288d48254b74db8b85505f536192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightWall: {fileID: 0}
+  leftWall: {fileID: 0}
+  backWall: {fileID: 0}
+  rightHallway: []
+  leftHallway: []
 --- !u!1 &174871039
 GameObject:
   m_ObjectHideFlags: 0
@@ -1346,6 +1382,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 466341387}
+  - component: {fileID: 466341388}
   m_Layer: 0
   m_Name: Slice04
   m_TagString: Untagged
@@ -1372,6 +1409,23 @@ Transform:
   m_Father: {fileID: 1426872657}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &466341388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 466341386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfa288d48254b74db8b85505f536192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightWall: {fileID: 0}
+  leftWall: {fileID: 0}
+  backWall: {fileID: 0}
+  rightHallway: []
+  leftHallway: []
 --- !u!1 &501906559
 GameObject:
   m_ObjectHideFlags: 0
@@ -4206,6 +4260,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1451345726}
+  - component: {fileID: 1451345727}
   m_Layer: 0
   m_Name: Slice01
   m_TagString: Untagged
@@ -4239,6 +4294,23 @@ Transform:
   m_Father: {fileID: 1426872657}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1451345727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1451345725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfa288d48254b74db8b85505f536192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightWall: {fileID: 0}
+  leftWall: {fileID: 0}
+  backWall: {fileID: 0}
+  rightHallway: []
+  leftHallway: []
 --- !u!1 &1498285863
 GameObject:
   m_ObjectHideFlags: 0
@@ -4352,6 +4424,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d2fdb0dff2ea24bb997e73b0e86a75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  visuals:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   pos: {x: 0, y: 0}
   direction: {x: 0, y: 0}
 --- !u!4 &1518184936
@@ -5768,6 +5846,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1990680057}
+  - component: {fileID: 1990680058}
   m_Layer: 0
   m_Name: Slice02
   m_TagString: Untagged
@@ -5801,6 +5880,23 @@ Transform:
   m_Father: {fileID: 1426872657}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1990680058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1990680056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bfa288d48254b74db8b85505f536192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rightWall: {fileID: 0}
+  leftWall: {fileID: 0}
+  backWall: {fileID: 0}
+  rightHallway: []
+  leftHallway: []
 --- !u!1 &2035244113
 GameObject:
   m_ObjectHideFlags: 0

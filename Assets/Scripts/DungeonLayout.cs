@@ -9,7 +9,6 @@ public class DungeonLayout : MonoBehaviour {
     public static DungeonLayout instance;
     void Awake()
     {
-        ReadDungeonFromFile();
         if (instance != null)
         {
             Debug.Log("More than one instance of DungeonLayout found!");
@@ -23,6 +22,10 @@ public class DungeonLayout : MonoBehaviour {
 
     [SerializeField]
     public List<DungeonCell> cells = new List<DungeonCell>();
+
+    void Start() {
+        ReadDungeonFromFile();
+    }
 
     public void ReadDungeonFromFile()
     {
