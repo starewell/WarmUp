@@ -9,6 +9,7 @@ public class DungeonLayout : MonoBehaviour {
     public static DungeonLayout instance;
     void Awake()
     {
+        ReadDungeonFromFile();
         if (instance != null)
         {
             Debug.Log("More than one instance of DungeonLayout found!");
@@ -24,7 +25,7 @@ public class DungeonLayout : MonoBehaviour {
     public List<DungeonCell> cells = new List<DungeonCell>();
 
     void Start() {
-        ReadDungeonFromFile();
+        
     }
 
     public void ReadDungeonFromFile()
@@ -46,7 +47,7 @@ public class DungeonLayout : MonoBehaviour {
                         break;
                     case '\n':
                         break;
-                    case 'X':
+                    case ' ':
                         CreateNewCell(x, y, DungeonCell.CellContents.Empty);
                         break;
                     case 'O':
@@ -56,7 +57,6 @@ public class DungeonLayout : MonoBehaviour {
                         CreateNewCell(x, y, DungeonCell.CellContents.Start);
                         break;
                 }
-                Debug.Log(cell);
                 x++;
             }
             x = 0;
@@ -65,7 +65,6 @@ public class DungeonLayout : MonoBehaviour {
     }
 
     void CreateNewCell(int x, int y, DungeonCell.CellContents type) {
-        Debug.Log(x + ", " + y);
         DungeonCell newCell = new DungeonCell();
         newCell.UpdateCell(new Vector2(x, y), type);
         cells.Add(newCell);
