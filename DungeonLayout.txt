@@ -1,9 +1,11 @@
-               
-  SOOOOOOOOOOO 
-  O   O  O   O 
-  O OOOO O   O 
- OO O  OOO   O 
- O  OOOO OOOOO 
- O     O     O 
- OOOOOOOOOOOOO 
-               
+                   
+ S        OOOOROOO 
+ OOOO   OOR   O  O 
+ O  OOOOO O   O  O 
+ O    O   OO  OOOO 
+ OOO  O    R     R 
+   OOOROOOOO  OROO 
+   O   O  O   O O  
+   O   O  OOOOO OE 
+   OOOOROOO        
+                   
